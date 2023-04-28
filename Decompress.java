@@ -102,7 +102,8 @@ public class Decompress {
             // If user input 'n' end the program 
             if (kb.next().equalsIgnoreCase("y")) {
                 restart = true;
-                System.out.println("Enter a new file to be compressed: ");
+                System.out.println("Enter a new file to be decompressed: ");
+		kb.nextLine();
                 args[0] = kb.nextLine();
             } else {
                 restart = false;
